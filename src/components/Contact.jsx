@@ -37,8 +37,9 @@ import { EarthCanvas } from "./canvas";
     
         emailjs
           .send(
-            'template_orcq3ax',
             'service_1l0cg49',
+            'template_orcq3ax',
+            
             {
               from_name: form.name,
               to_name: "JavaScript Mastery",
