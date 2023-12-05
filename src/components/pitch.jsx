@@ -10,6 +10,7 @@ const PitchVideo = () => {
         loop
         autoPlay
         
+        playsInline        
       >
         <source src={pitch} type="video/mp4" />
       </video>
