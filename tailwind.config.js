@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      linearGradient: {
+        'left-to-right': 'to right, rgba(255, 0, 0, 0.8), rgba(0, 255, 255, 0)',
+      },
     },
   },
   plugins: [],
