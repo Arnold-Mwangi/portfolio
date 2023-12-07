@@ -4,8 +4,10 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import youtube from './youtube.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
+import flatiron from "./flatiron.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -29,6 +31,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import blogify from "./blogify.jpeg"
 import pitch from "./pitch.mp4"
 
 export {
@@ -61,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  youtube,
+  blogify,
+  flatiron
 };
