@@ -8,6 +8,8 @@ import youtube from './youtube.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
 import flatiron from "./flatiron.png"
+import sound from './sound.png'
+import audio from './audio.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -66,5 +68,7 @@ export {
   tripguide,
   youtube,
   blogify,
-  flatiron
+  flatiron,
+  sound,
+  audio
 };
