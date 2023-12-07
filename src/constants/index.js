@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    youtube,
+    blogify,
+    flatiron,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -123,6 +127,8 @@ import {
   ];
   
   const experiences = [
+
+    
     {
       title: "React.js Developer",
       company_name: "Starbucks",
@@ -136,6 +142,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+
     {
       title: "React Native Developer",
       company_name: "Tesla",
@@ -162,6 +169,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    
     {
       title: "Full stack Developer",
       company_name: "Meta",
@@ -180,7 +188,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Arnold proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -188,7 +196,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Arnold does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -196,7 +204,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Arnold optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -205,6 +213,92 @@ import {
   ];
   
   const projects = [
+    {
+      "name": "Bank of Flatiron",
+      "description": "Web application that fetches bank transactions from a Bank transactions API and allows a user to perform CRUD operations on the transactions.",
+      "tags": [
+        {
+          "name": "react",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "fetch api",
+          "color": "orange-text-gradient"
+        },
+        {
+          "name": "Restful API's",
+          "color": "blue-text-gradient"
+        }
+      ],
+      "image": flatiron,  
+      "source_code_link": "https://github.com/Arnold-Mwangi/Bank-of-Flatiron",  
+      "deployment_link": "https://chimerical-rugelach-605b02.netlify.app/",  
+    },
+
+    {
+      "name": "GitHub Search App",
+      "description": "Web application that allows users to search for GitHub repositories and users using the GitHub API. Provides information and details about repositories and users, utilizing React state, components, and the fetch API.",
+      "tags": [
+        {
+          "name": "react",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "github api",
+          "color": "purple-text-gradient"
+        }
+      ],
+      "image": 'Github',  
+      "source_code_link": "https://github.com/Arnold-Mwangi/github_search", 
+      "deployment_link": "https://github-searchatkirigwi.onrender.com/",  
+    },
+    
+    {
+      "name": "youtube_video_sync",
+      "description": "Web app that uses YouTube Data API v3 to access videos, playlists, and channels. Provides an easier way of accessing CHANNEL VIDEOS.",
+      "tags": [
+        {
+          "name": "vanilla javascript",
+          "color": "orange-text-gradient"
+        },
+        {
+          "name": "youtube api",
+          "color": "green-text-gradient"
+        }
+      ],
+      "image": youtube, 
+      "source_code_link": "https://github.com/Arnold-Mwangi/youtube_video_sync",  
+    },
+    
+    {
+      "name": "Blogify (open source) ",
+      "description": "An open-source Web-based platform where users can interact with interesting blogs on various topics. Users can like blogs, search for blogs by title, filter blogs, view latest and top-rated blogs, and post new blogs.",
+      "tags": [
+        {
+          "name": "html",
+          "color": "orange-text-gradient"
+        },
+        {
+          "name": "css",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "javascript",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "react",
+          "color": "pink-text-gradient"
+        },
+        {
+          "name": "bootstrap",
+          "color": "purple-text-gradient"
+        }
+      ],
+      "image": blogify,
+      "source_code_link": "https://github.com/Gathoni-Wanjira/Blogify"
+    },
+    
     {
       name: "Car Rent",
       description:
@@ -226,6 +320,7 @@ import {
       image: carrent,
       source_code_link: "https://github.com/",
     },
+
     {
       name: "Job IT",
       description:
@@ -247,6 +342,7 @@ import {
       image: jobit,
       source_code_link: "https://github.com/",
     },
+
     {
       name: "Trip Guide",
       description:
@@ -269,5 +365,6 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };
